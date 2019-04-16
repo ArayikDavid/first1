@@ -4,6 +4,10 @@ public class test3_1 {
         float f = (float) i;
         System.out.println("int " + i);
         System.out.println("float " + f);
-
+        byte b = 127;
+        b = ++b;
+        System.out.println(b);
     }
 }
+
+
